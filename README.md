@@ -38,7 +38,7 @@ AIRFLOW__SCHEDULER__SCHEDULER_HEARTBEAT_SEC=10
 AIRFLOW__SCHEDULER__MIN_FILE_PROCESS_INTERVAL=60 # Prevent airflow from reloading the dags all the time and set. This is the main setting that reduces CPU load in the scheduler
 AIRFLOW__SCHEDULER__SCHEDULER_MAX_THREADS=2 # This should be set to (CPU Cores - 1)
 AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflowdb
-AIRFLOW__CORE__FERNET_KEY=${FERNET_KEY}
+AIRFLOW__CORE__FERNET_KEY=< PASTE_YOUR_FERNET_KEY>
 ```
 
 5. Create two folders: dags and logs

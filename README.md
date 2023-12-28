@@ -2,7 +2,6 @@
   The latest Airflow image (apache/airflow) uses to install a new Python library or system library.
 
 
-
 ## Purpose
 The minimum code necessary to set-up Apache/Airflow Docker image. User can clone repo and then spin up apache/airflow Docker container quickly. It allows us to install python packages for any project
 

@@ -42,7 +42,7 @@ AIRFLOW__CORE__FERNET_KEY=< PASTE_YOUR_FERNET_KEY>
 5. Create two folders: dags and logs
 
 ```
-mkdir .dags/ .logs/
+mkdir dags/ logs/
 ```
 and give the permission
 

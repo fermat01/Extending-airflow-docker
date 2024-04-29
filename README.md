@@ -64,7 +64,7 @@ chmod -R 777 logs/
 	- Username: airflow01
 	- Password: airflow01
 
-<\ br>
+<br>
 
 <img src="images/extend_airflow2-7.gif" >
 

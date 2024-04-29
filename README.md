@@ -1,4 +1,4 @@
-# Extending-docker-airflow2.7.3
+# Extending-Extending-airflow-docker2.7.3
   The latest Airflow image (apache/airflow) uses to install a new Python library or system library.
 
 
@@ -14,7 +14,7 @@ The minimum code necessary to set-up Apache/Airflow Docker image. User can clone
 2. Install [docker-compose](https://docs.docker.com/compose/install/)
 3. Clone this repo
 ```
- git clone https://github.com/fermat01/Extending-docker-airflow.git
+ git clone https://github.com/fermat01/Extending-airflow-docker.git
  ```
 
 4. Create an `.env` file in the root directory. Here is my .env file, customize it to your own needs:

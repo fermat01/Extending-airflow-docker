@@ -52,10 +52,17 @@ chmod -R 777 logs/
 ```
 
 6. To spin up the server, run      `docker-compose up -d`
+   
+7.  Here the airflow UI tested on given credentials
+
+<img src="images/extend_airflow2-7.gif" > 
 
 
-7. Go to http://localhost:8080/
-8. Login using these credentials
+<img src="images/extend_dags.png" > 
+
+
+9. Go to http://localhost:8080/
+10. Login using these credentials
 	- Username: airflow01
 	- Password: airflow01
-9.  To spin down, run `docker-compose down`
+11.  To spin down, run `docker-compose down`

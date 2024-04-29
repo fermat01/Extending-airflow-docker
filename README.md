@@ -64,6 +64,8 @@ chmod -R 777 logs/
 	- Username: airflow01
 	- Password: airflow01
 
+<\ br>
+
 <img src="images/extend_airflow2-7.gif" >
 
 11.  To spin down, run `docker-compose down`

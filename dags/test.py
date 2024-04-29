@@ -20,9 +20,9 @@ def generate_fake_sensor_data():
 
 # Define the default arguments for the DAG
 default_args = {
-    'owner': 'vianney',
+    'owner': 'coder2f',
     'depends_on_past': False,
-    'start_date': datetime(2023, 11, 21),
+    'start_date': datetime(2024, 4, 29),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }

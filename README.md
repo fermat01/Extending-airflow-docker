@@ -51,9 +51,11 @@ chmod -R 777 dags/
 chmod -R 777 logs/
 ```
 
-6. To spin up the server, run `docker-compose up -d`
+6. To spin up the server, run      `docker-compose up -d`
+
+
 7. Go to http://localhost:8080/
 8. Login using these credentials
-	- UN: u-airflow01
-	- PW: p-airflow01
-9. To spin down, run `docker-compose down`
+	- Username: airflow01
+	- Password: airflow01
+9.  To spin down, run `docker-compose down`

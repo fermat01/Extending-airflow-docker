@@ -55,14 +55,15 @@ chmod -R 777 logs/
    
 7.  Here the airflow UI tested on given credentials
 
-<img src="images/extend_airflow2-7.gif" > 
-
+9. Go to http://localhost:8080/
 
 <img src="images/extend_dags.png" > 
 
 
-9. Go to http://localhost:8080/
 10. Login using these credentials
 	- Username: airflow01
 	- Password: airflow01
+
+<img src="images/extend_airflow2-7.gif" >
+
 11.  To spin down, run `docker-compose down`
